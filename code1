@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void main()
+{
+    int a;
+    int b=0;
+    printf("Enter Password \n");
+    scanf("%d",&a);
+    
+    while(b==0){
+       if(a==2204)
+       {
+           printf("Secret documents");
+           b=1;
+       }
+       else
+       {
+        printf("Sorry no documents for you! \n");
+       }
+    }
+        
+        
+    }
+    printf("Have a nice day!\n");
+}
